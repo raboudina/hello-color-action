@@ -1,3 +1,5 @@
-const hello = () => "Hello World";
+function hello() {
+    return "Hello World";
+}
 console.log(hello());
-exports.hello = hello;
+exports.hello =hello;
