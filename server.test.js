@@ -15,7 +15,7 @@ test('responds with hello world on the screen', async () => {
   // Expect the status code to be 200
   expect(response.statusCode).toBe(200);
   // Expect the response text to contain hello world
-  expect(response.text).toContain('Hello World!');
+  expect(response.text).toContain('Hello Worlds!');
 });
 
 var server = app.listen(5000, function(){
